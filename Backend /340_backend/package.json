@@ -1,0 +1,22 @@
+{
+  "name": "340_backend",
+  "version": "1.0.0",
+  "description": "backend for 340 project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build:ui": "rm -rf build && cd ../340_project/ && npm run build --prod && cp -r build ../340_backend"
+  },
+  "author": "James Lipe, Vincent Rastello",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
