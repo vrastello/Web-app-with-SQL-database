@@ -1,4 +1,4 @@
-App for managing sports leagues (teams, players, rosters, games)
+Back end for App--written in node.js
 
 SQL database used, includes full CRUD functionality
 
